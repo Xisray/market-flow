@@ -4,7 +4,7 @@ export default function ProductTable({ productInfo }) {
       <thead>
         <tr>
           <th>Дата</th>
-          <th>Кол-во людей купивших товар</th>
+          <th>Кол-во покупателей</th>
           <th>Общее кол-во</th>
           <th>Средняя цена потребления</th>
           <th>Спрос</th>

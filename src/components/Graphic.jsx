@@ -92,7 +92,7 @@ function getChartData(productInfo) {
             x: parseDate(point.date),
             y: point.flow,
           })),
-        backgroundColor: 'rgba(43, 255, 0, 0.7)',
+        backgroundColor: 'rgba(255, 255, 255, 0.7)',
         pointRadius: 8,
       },
     ],

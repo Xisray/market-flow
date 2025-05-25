@@ -1,5 +1,5 @@
 import {mergeInvoicesByDate, sortInvoicesByDate, addDates} from "../utils/utils"
-import rawData from "./generated"
+import rawData from "./invoices"
 
 const data = []
 const products = [];
@@ -7,7 +7,7 @@ const products = [];
 export function getData() {
   if(data.length !== 0)
     return data;
-  data.push(...addDates(rawData));
+  data.push(...rawData);
   return data;
 }
 
